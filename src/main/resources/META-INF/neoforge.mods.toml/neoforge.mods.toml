@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="smoothworld"
+version="1.0.0"
+displayName="SmoothWorld"
+authors="SmoothWorld Team"
+description='''
+SmoothWorld improves Minecraft terrain generation with
+more natural mountain ranges, deep valleys and smooth slopes.
+Vanilla biomes are preserved.
+'''
+
+[[dependencies.smoothworld]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.172,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.smoothworld]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
